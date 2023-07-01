@@ -1,0 +1,116 @@
+[33mcommit 0fcc3fead359c807f65a58a72f925444a52e1ac0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: CarlosMedx <solracmed@gmail.com>
+Date:   Sat Jul 1 10:49:35 2023 -0300
+
+    voltando para d4a7152
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 41a2882..c251871 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,6 +7,5 @@[m
+ </head>[m
+ <body>[m
+     <h1>Sistema de fichamento</h1>[m
+[31m-    <script src="app.py"></script>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 2742e02b48a67839b896ed22c0a84a1babab35a6[m
+Author: CarlosMedx <solracmed@gmail.com>
+Date:   Fri Jun 30 18:04:02 2023 -0300
+
+    linkando o app.py com o html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c251871..41a2882 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,5 +7,6 @@[m
+ </head>[m
+ <body>[m
+     <h1>Sistema de fichamento</h1>[m
+[32m+[m[32m    <script src="app.py"></script>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit d4a71529d2d17ad9a73f1c5650e9dea7c6cb21bc[m
+Author: Carlos Medeiros <99372251+CarlosMedx@users.noreply.github.com>
+Date:   Fri Jun 30 16:58:27 2023 -0300
+
+    Criando arquivo index do projeto
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c251871[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="pt-br">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <title>Fichamentos</title>[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <h1>Sistema de fichamento</h1>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+
+[33mcommit 7eecd248cb7a0ed05094baee46075f050734d186[m
+Author: Carlos Medeiros <99372251+CarlosMedx@users.noreply.github.com>
+Date:   Fri Jun 30 16:46:01 2023 -0300
+
+    Criando o arquivo .py com o console
+
+[1mdiff --git a/app.py b/app.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9df5c66[m
+[1m--- /dev/null[m
+[1m+++ b/app.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("Rodando sistema de fichamento")[m
+
+[33mcommit e19973f211e547f998809fcb602af3f8b4521cfe[m
+Author: Carlos Medeiros <99372251+CarlosMedx@users.noreply.github.com>
+Date:   Fri Jun 30 16:42:26 2023 -0300
+
+    Alterando README.md
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 6651768..423c305 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -5,5 +5,5 @@[m
+ Para rodar esse projeto na sua máquina, por favor digite:[m
+ [m
+ ```[m
+[31m-teste[m
+[32m+[m[32mpython app.py[m
+ ```[m
+
+[33mcommit f8b9fa48cf9dc9c82965b6eada802228cbea73f7[m
+Author: Carlos Medeiros <99372251+CarlosMedx@users.noreply.github.com>
+Date:   Fri Jun 30 13:56:30 2023 -0300
+
+    Criando arquivo README.md
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6651768[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<h1>Sistema de Fichamento de livros e artigos</h1>[m
+[32m+[m
+[32m+[m[32m> Status do projeto: Em desenvolvimento[m
+[32m+[m
+[32m+[m[32mPara rodar esse projeto na sua máquina, por favor digite:[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mteste[m
+[32m+[m[32m```[m
